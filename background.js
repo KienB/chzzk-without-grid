@@ -32,12 +32,16 @@ let handler = function (details) {
         return {
             redirectUrl: url.replace(
                 "chunklist_480p.m3u8",
-                "chunklist_1080p.m3u8"
+                "chunklist_720p.m3u8"
             ),
         };
     else if (url.match(/[A-z0-9]+\/480p\/hdntl=.+\/chunklist.m3u8/g))
         return {
-            redirectUrl: url.replace("480p", "1080p"),
+            redirectUrl: url.replace("480p", "720p"),
+        };
+    else if (url.match(/[A-z0-9]+\/480p\+\/chunklist.m3u8/g))
+        return {
+                redirectUrl: url.replace("480p", "720p"),
         };
 };
 

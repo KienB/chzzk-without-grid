@@ -28,7 +28,7 @@ function changeText() {
         qualityElement.querySelector(
             "li > div:nth-child(2) > span > div"
         ).innerHTML =
-            '<span class="pzp-pc-ui-setting-quality-item__prefix">1080p&nbsp;<div class="pzp-ui-track-badge"><em style="vertical-align:super;" class="pzp-ui-track-badge__badge">with FUCK GRID™</em> <!----></div></span>';
+            '<span class="pzp-pc-ui-setting-quality-item__prefix">720p&nbsp;<div class="pzp-ui-track-badge"><em style="vertical-align:super;" class="pzp-ui-track-badge__badge">without GRID™</em> <!----></div></span>';
         console.log("[FUCK CHZZK GRID] inject complete!");
     } else setTimeout(changeText, 500);
 }

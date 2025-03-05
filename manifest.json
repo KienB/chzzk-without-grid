@@ -2,13 +2,13 @@
     "manifest_version": 3,
     "browser_specific_settings": {
         "gecko": {
-            "id": "FUCKGRID@bass9030.dev",
+            "id": "no@localhost",
             "strict_min_version": "58.0"
         }
     },
-    "name": "FUCK CHZZK GRID",
-    "description": "I HATE FUCKING CHZZK GRID(Remove chzzk grid)",
-    "version": "1.2",
+    "name": "chzzk without grid",
+    "description": "Grid is cringest program in the earth",
+    "version": "1.0",
     "permissions": [
         "activeTab",
         "webRequest",
